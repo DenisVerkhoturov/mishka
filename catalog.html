@@ -91,5 +91,23 @@
     Разработано <a href="http://htmlacademy.ru">HTML Academy</a>
   </div>
 </footer>
+
+<section class="modal-overlay">
+  <section class="modal-overlay__inners">
+    <form class="add-to-cart" method="post" action="https://echo.htmlacademy.ru/">
+      <h1 class="add-to-cart__title">Добавить в корзину</h1>
+      <fieldset class="add-to-cart__group">
+        <legend>Выбирите размер:</legend>
+        <input type="radio" name="size" value="small" id="size-small">
+        <label for="size-small">S</label>
+        <input type="radio" name="size" value="medium" id="size-medium">
+        <label for="size-medium">M</label>
+        <input type="radio" name="size" value="large" id="size-large">
+        <label for="size-large">L</label>
+      </fieldset>
+      <input type="submit" value="Добавить">
+    </form>
+  </section>
+</section>
 </body>
 </html>
